@@ -31,8 +31,8 @@ img {
 
 /* Style rules for header  */
 header {
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
   top: 0;
   background-color: #1c1c1c;
   height: 190px;

@@ -1,0 +1,118 @@
+/* CSS reset */
+
+figure,
+figcaption,
+section,
+article,
+aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style
+rule for box sizing
+applies to all elements
+*/
+
+/* * {
+  box-sizing: border-box;
+}
+
+article {
+  padding: 2%;
+}
+
+article h3 {
+  text-align: center;
+}
+
+article ul {
+  margin-left: 10%;
+}
+
+article:nth-of-type(2) {
+  background-color: rgba(204, 204, 204, 0.3);
+} */
+
+.frame {
+  position: relative;
+  max-width: 450px;
+  margin: 2% auto;
+}
+
+.pic-text {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 91%;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 630px), print {
+  /* Tablet Viewport: Show tablet-desktop class,
+hide mobile class */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+
+  .pic-text {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  aside {
+    text-align: center;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    padding: 2%;
+    background-color: rgba(204, 204, 204, 0.5);
+    box-shadow: 5px 5px 8px #000;
+    text-shadow: 5px 5px 5px #b3b3b3;
+    border-radius: 0 15px;
+    margin: 1.5%;
+  }
+   
+
+  .grid-item4 {
+    grid-column: 1 / span 3;
+  } 
+}
+
+/* Media
+Query for Desktop
+Viewport */
+
+@media screen and (min-width: 1015px), print {
+  /* Desktop Viewport: Style
+rule for header */
+
+ /* article h3 {
+    font-size: 1.75em;
+  } */
+
+  .pic-text {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+
+  .frame {
+    opacity: 0.9;
+  }
+
+  .frame:hover {
+    opacity: 1;
+    box-shadow: 8px 8px 10px #808080;
+  }
+}
