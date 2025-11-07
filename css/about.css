@@ -36,7 +36,13 @@ hide mobile class */
   }
 
   .shopping-reasons {
+    float: left;
+    width: 45%;
     margin: 0 2%;
+  }
+
+  .shopping-reasons img {
+    /* width: 80%; */
   }
 }
 
@@ -49,5 +55,10 @@ Viewport */
     float: left;
     width: 29%;
     margin: 0 2%;
+  }
+
+  .shopping-reasons img {
+    width: 80%;
+    border: 1px solid red;
   }
 }
