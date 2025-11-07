@@ -1,0 +1,53 @@
+.tablet-desktop-view {
+  display: none;
+}
+
+.our-guarantee img {
+  margin: 0 auto;
+}
+
+.our-guarantee p.guarantee {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1%;
+  font-style: italic;
+}
+
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 630px), print {
+  /* Tablet Viewport: Show tablet-desktop class,
+hide mobile class */
+  .tablet-desktop-view {
+    display: block;
+  }
+  .mobile-view {
+    display: none;
+  }
+
+  .our-guarantee img {
+    margin: 0;
+  }
+
+  .our-guarantee p.guarantee {
+    font-size: 1.2em;
+    text-align: left;
+  }
+
+  .shopping-reasons {
+    margin: 0 2%;
+  }
+}
+
+/* Media
+Query for Desktop
+Viewport */
+
+@media screen and (min-width: 1015px), print {
+  .shopping-reasons {
+    float: left;
+    width: 29%;
+    margin: 0 2%;
+  }
+}

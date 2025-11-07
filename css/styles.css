@@ -190,6 +190,30 @@ hide mobile class */
  padding: 0.5% 0;
 }
 
+.sale-item {
+    float: left;
+    width: 45%;
+    margin: 0 2%;
+  }
+
+  .sale-item img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #ccc;
+  }
+
+  .sale-item img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   /* Tablet Viewport: Style rules for main content area */
 }
 
@@ -243,23 +267,6 @@ content */
     margin: 0 2%;
   }
 
-  .sale-item img {
-    border-radius: 5px;
-    box-shadow: 5px 5px 8px #ccc;
-  }
-
-  .sale-item img:hover {
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    opacity: 0.8;
-    cursor: pointer;
-  }
-
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
 
 /*
