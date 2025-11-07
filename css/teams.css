@@ -60,6 +60,20 @@ article:nth-of-type(2) {
   font-weight: bold;
 }
 
+aside {
+  background-color: rgba(204, 204, 204, 0.5);
+  box-shadow: 5px 5px 8px #ccc;
+  text-shadow: 5px 5px 5px #b3b3b3;
+  border-radius: 0 15px;
+  font-style: italic;
+  text-align: center;
+  margin: auto 2.5%;
+}
+
+.space {
+  height: 30px;
+}
+
 /* Media Query for Tablet Viewport */
 
 @media screen and (min-width: 630px), print {
@@ -84,7 +98,7 @@ hide mobile class */
     font-weight: bold;
     padding: 2%;
     background-color: rgba(204, 204, 204, 0.5);
-    box-shadow: 5px 5px 8px #000;
+    box-shadow: 5px 5px 8px #ccc;
     text-shadow: 5px 5px 5px #b3b3b3;
     border-radius: 0 15px;
     margin: 1.5%;
