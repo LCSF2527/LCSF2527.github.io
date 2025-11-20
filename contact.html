@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+ Student Name: PRINCE-CHARLES KOMBE MOLINGA
+ Student Number: C0964367
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1" />
+    <title>Revo E-Drills</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Header with Logo -->
+      <header>
+        <a href="/"
+          ><img src="images/logo_transparent.png" alt="Revo E-Drills logo"
+        /></a>
+      </header>
+
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="specials.html">Specials</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Web Content -->
+      <main>
+        <!-- Hero Image Section -->
+        <div id="hero" class="tablet-desktop">
+          <img src="images/July-2017-Dewalt-Banner.jpg" alt="Hero Image" />
+        </div>
+        <form action="" id="contact-form">
+            <h1>Contact Us</h1>
+
+            <ol>
+                <li>For general inquiries, please email us at <a href="mailto:info@revo-edrills.com">info@revo-edrills.com</a>.</li>
+                <li>For partnership opportunities, email <a href="mailto:partners@revo-edrills.com">partners@revo-edrills.com</a>.</li>
+                <li>For customer support, please fill out the form below and we will get back to you as soon as possible.</li>
+            </ol>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter full name"  size="20" autofocus  />
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter valid email address" />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter phone number" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+    
+                <label>
+                    <input type="radio" name="contact-method" value="email" checked />
+                    Email
+                </label>
+    
+                <label>
+                    <input type="radio" name="contact-method" value="phone" />
+                    Phone
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Best Time to Contact</legend>
+                <input type="checkbox" name="morning" id="morning" />
+                <label for="morning">Morning</label>
+                <input type="checkbox" name="afternoon" id="afternoon" />
+                <label for="afternoon">Afternoon</label>
+                <input type="checkbox" name="evening" id="evening" />
+                <label for="evening">Evening</label>
+                <input type="checkbox" name="anytime" id="anytime" />
+                <label for="anytime">Anytime</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Issue Priority</legend>
+                <select name="priority" id="priority">
+                    <option value="low">Low</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required />
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" />
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </fieldset>
+            
+            <div class="buttons">
+                <button id="submit" type="submit">Submit</button>
+                <button id="reset" type="reset">Reset</button>
+            </div>
+        </form>
+      </main>
+
+      <footer>
+        <p>&copy;opyright 2099. All Rights Reserved.</p>
+        <p><a href="mailto:info@revo-edrills.com">Request Information</a></p>
+        <p>Kombe Molinga Prince-Charles &nbsp; &nbsp; C0964367</p>
+      </footer>
+    </div>
+  </body>
+</html>

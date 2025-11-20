@@ -35,6 +35,10 @@ hide mobile class */
     text-align: left;
   }
 
+  section.why-shop {
+    width: 100%;
+  }
+
   .shopping-reasons {
     float: left;
     width: 45%;
@@ -42,7 +46,7 @@ hide mobile class */
   }
 
   .shopping-reasons img {
-    /* width: 80%; */
+    maxwidth: 80%;
   }
 }
 
