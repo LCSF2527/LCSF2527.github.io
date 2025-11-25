@@ -103,6 +103,10 @@ h2 {
   text-align: center;
 }
 
+li::marker {
+  color: #ff8c00;
+}
+
 h1 {
   font-size: 1.8em;
 }

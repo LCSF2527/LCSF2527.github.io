@@ -27,7 +27,7 @@ hide mobile class */
   }
 
   .our-guarantee img {
-    margin: 0;
+    display: none;
   }
 
   .our-guarantee p.guarantee {
