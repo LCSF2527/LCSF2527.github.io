@@ -73,6 +73,11 @@ nav li a {
   text-decoration: none;
 }
 
+nav ul li a:hover,
+.active {
+  color: #ffcc00;
+}
+
 /* Show mobile class, hide tablet-desktop class */
 .mobile {
   display: block;
@@ -99,7 +104,10 @@ h2 {
   color: #ff8c00;
 }
 
-.text-content h1, h2, p, ul {
+.text-content h1,
+h2,
+p,
+ul {
   text-align: center;
 }
 
@@ -131,7 +139,8 @@ h2.weekly-sales {
   margin: 0 auto;
 }
 
-.sale-item h3, p {
+.sale-item h3,
+p {
   text-align: center;
 }
 
@@ -182,19 +191,22 @@ hide mobile class */
     background-color: #fff;
   }
 
-  .text-content h1, h2, p, ul {
-  text-align: left;
-}
+  .text-content h1,
+  h2,
+  p,
+  ul {
+    text-align: left;
+  }
 
-.text-content ul {
-  margin-left: 2%;
-}
+  .text-content ul {
+    margin-left: 2%;
+  }
 
-.text-content ul li {
- padding: 0.5% 0;
-}
+  .text-content ul li {
+    padding: 0.5% 0;
+  }
 
-.sale-item {
+  .sale-item {
     float: left;
     width: 45%;
     margin: 0 2%;
@@ -213,7 +225,7 @@ hide mobile class */
   }
 
   .clearfix::after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
@@ -270,7 +282,6 @@ content */
     width: 29%;
     margin: 0 2%;
   }
-
 }
 
 /*
@@ -294,9 +305,13 @@ Media Query for Print */
   }
 }
 
+footer {
+  margin-top: 40px;
+}
+
 /* Style rules for footer content  */
 footer p {
-  font-size: 0.80em;
+  font-size: 0.8em;
   text-align: center;
   color: #fff;
   padding: 0 1em;

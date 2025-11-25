@@ -1,0 +1,56 @@
+/* Headings */
+h1,
+h2 {
+  font-family: 'Francois One', sans-serif;
+  color: #222;
+}
+
+/* Product images inside training table */
+.product-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+/* Table styling */
+.training-table {
+  width: 100%;
+  border: 2px solid #333;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.training-table caption {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.training-table th,
+.training-table td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: left;
+}
+
+.training-table th {
+  background-color: #444;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Alternating rows */
+.row-alt {
+  background-color: #f7f7f7;
+}
+
+/* Hover highlight */
+.training-table tr:hover {
+  background-color: #ffe8b3;
+}
