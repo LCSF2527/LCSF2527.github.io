@@ -46,7 +46,8 @@ hide mobile class */
   }
 
   .shopping-reasons img {
-    maxwidth: 80%;
+    height: auto;
+    max-width: 80%;
   }
 }
 

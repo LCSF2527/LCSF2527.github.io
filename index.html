@@ -9,13 +9,39 @@
     <meta name="viewport" content="width=device-width, initialscale=1" />
     <title>Revo E-Drills</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/test.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      /* CSS to set hero image height to 300px, preserve aspect ratio, and avoid scrollbars */
+
+      #hero {
+        height: 270px;
+        overflow: hidden;
+        /* margin: 0; */
+        /* padding: 0; */
+      }
+
+      /* Ensure the hero image fills the container without distortion */
+      #hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        max-width: none;
+        max-height: none;
+      }
+
+      main .text-content {
+        padding: 1em;
+      }
+    </style>
   </head>
   <body>
     <div id="container">
@@ -55,13 +81,13 @@
             warrior, our tools help you drill
             <span class="action">smarter, faster, and safer!</span>
           </p>
-          <h2>Why Choose Revo E Drills?</h2>
+          <!-- <h2>Why Choose Revo E Drills?</h2>
           <ul>
             <li>Cutting-edge brushless motor technology for maximum power</li>
             <li>Ergonomic designs that reduce fatigue during extended use</li>
             <li>Long-lasting batteries for uninterrupted work sessions</li>
             <li>Exceptional customer support and warranty coverage</li>
-          </ul>
+          </ul> -->
         </div>
       </main>
 

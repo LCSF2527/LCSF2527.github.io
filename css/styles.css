@@ -251,7 +251,7 @@ rule for header */
   nav {
     float: right;
     width: 70%;
-    margin: 4em 1em 0;
+    margin: 3em 1em 0;
   }
 
   nav ul {
@@ -306,7 +306,7 @@ Media Query for Print */
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 /* Style rules for footer content  */
@@ -314,7 +314,6 @@ footer p {
   font-size: 0.8em;
   text-align: center;
   color: #fff;
-  padding: 0 1em;
 }
 
 footer p a {
