@@ -273,6 +273,10 @@ content */
     clear: both;
   }
 
+  #hero {
+    height: 45vh;
+  }
+
   main h1 {
     font-size: 1.8em;
   }
