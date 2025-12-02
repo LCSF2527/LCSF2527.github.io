@@ -16,6 +16,20 @@
       href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
   <body>
     <div id="container">
@@ -47,78 +61,108 @@
           <img src="images/July-2017-Dewalt-Banner.jpg" alt="Hero Image" />
         </div>
         <form action="" id="contact-form">
-            <h1>Contact Us</h1>
+          <h1>Contact Us</h1>
 
-            <ol>
-                <li>For general inquiries, please email us at <a href="mailto:info@revo-edrills.com">info@revo-edrills.com</a>.</li>
-                <li>For partnership opportunities, email <a href="mailto:partners@revo-edrills.com">partners@revo-edrills.com</a>.</li>
-                <li>For customer support, please fill out the form below and we will get back to you as soon as possible.</li>
-            </ol>
+          <ol>
+            <li>
+              For general inquiries, please email us at
+              <a href="mailto:info@revo-edrills.com">info@revo-edrills.com</a>.
+            </li>
+            <li>
+              For partnership opportunities, email
+              <a href="mailto:partners@revo-edrills.com"
+                >partners@revo-edrills.com</a
+              >.
+            </li>
+            <li>
+              For customer support, please fill out the form below and we will
+              get back to you as soon as possible.
+            </li>
+          </ol>
 
-            <fieldset>
-                <legend>Contact Information</legend>
-    
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required placeholder="Enter full name"  size="20" autofocus  />
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="Enter valid email address" />
+          <fieldset>
+            <legend>Contact Information</legend>
 
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone" placeholder="Enter phone number" />
-            </fieldset>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter full name"
+              size="20"
+              autofocus
+            />
 
-            <fieldset>
-                <legend>Preferred Contact Method</legend>
-    
-                <label>
-                    <input type="radio" name="contact-method" value="email" checked />
-                    Email
-                </label>
-    
-                <label>
-                    <input type="radio" name="contact-method" value="phone" />
-                    Phone
-                </label>
-            </fieldset>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Enter valid email address"
+            />
 
-            <fieldset>
-                <legend>Best Time to Contact</legend>
-                <input type="checkbox" name="morning" id="morning" />
-                <label for="morning">Morning</label>
-                <input type="checkbox" name="afternoon" id="afternoon" />
-                <label for="afternoon">Afternoon</label>
-                <input type="checkbox" name="evening" id="evening" />
-                <label for="evening">Evening</label>
-                <input type="checkbox" name="anytime" id="anytime" />
-                <label for="anytime">Anytime</label>
-            </fieldset>
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Enter phone number"
+            />
+          </fieldset>
 
-            <fieldset>
-                <legend>Issue Priority</legend>
-                <select name="priority" id="priority">
-                    <option value="low">Low</option>
-                    <option value="medium" selected>Medium</option>
-                    <option value="high">High</option>
-                </select>
-            </fieldset>
+          <fieldset>
+            <legend>Preferred Contact Method</legend>
 
-            <fieldset>
-                <legend>Additional Information</legend>
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required />
+            <label>
+              <input type="radio" name="contact-method" value="email" checked />
+              Email
+            </label>
 
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" />
-    
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </fieldset>
-            
-            <div class="buttons">
-                <button id="submit" type="submit">Submit</button>
-                <button id="reset" type="reset">Reset</button>
-            </div>
+            <label>
+              <input type="radio" name="contact-method" value="phone" />
+              Phone
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Best Time to Contact</legend>
+            <input type="checkbox" name="morning" id="morning" />
+            <label for="morning">Morning</label>
+            <input type="checkbox" name="afternoon" id="afternoon" />
+            <label for="afternoon">Afternoon</label>
+            <input type="checkbox" name="evening" id="evening" />
+            <label for="evening">Evening</label>
+            <input type="checkbox" name="anytime" id="anytime" />
+            <label for="anytime">Anytime</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Issue Priority</legend>
+            <select name="priority" id="priority">
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional Information</legend>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </fieldset>
+
+          <div class="buttons">
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+          </div>
         </form>
       </main>
 
