@@ -41,8 +41,10 @@
 
         <style>
           /* CSS to set hero image height to 45vh, preserve aspect ratio, and avoid scrollbars */
-          #hero {
-            height: 55vh;
+          @media screen and (min-width: 1015px), print {
+            #hero {
+              height: 55vh;
+            }
           }
         </style>
       </header>
