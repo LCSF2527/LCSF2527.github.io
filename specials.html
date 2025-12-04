@@ -32,15 +32,31 @@
   </head>
   <body>
     <div id="container">
+      <!-- Mobile Nav -->
+      <nav class="mobile-nav">
+        <div id="menu-links">
+          <a href="/">Home</a>
+          <a href="about.html">About</a>
+          <a href="team.html">Our Team</a>
+          <a href="specials.html">Specials</a>
+          <a href="training.html">Training</a>
+          <a href="media.html">Media</a>
+          <a href="faqs.html">FAQs</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+          <div>&#9776;</div>
+        </a>
+      </nav>
       <!-- Header with Logo -->
-      <header>
+      <header id="ffc-logo">
         <a href="/"
           ><img src="images/logo_transparent.png" alt="Revo E-Drills logo"
         /></a>
       </header>
 
       <!-- Navigation Bar -->
-      <nav>
+      <nav class="tablet-desktop-menu">
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -90,5 +106,7 @@
         <p>Kombe Molinga Prince-Charles &nbsp; &nbsp; C0964367</p>
       </footer>
     </div>
+
+    <script src="scripts/script.js"></script>
   </body>
 </html>
